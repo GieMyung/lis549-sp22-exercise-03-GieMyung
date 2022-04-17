@@ -1,0 +1,39 @@
+h1 {
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+thead {
+    height: 2rem;
+    text-align: left;
+    color: #1db954;
+    background-color: #d3d3d3;
+
+}
+
+img {
+    width:100px;
+    height:100px;
+}
+
+td, thead{
+    padding: .5em;
+    border-bottom: 1px;
+    border-bottom-color: #d3d3d3;
+    border-bottom-style: solid;
+}
+
+tr:not(:first-child)  {
+    background-color: #eee;
+}
+
+tbody tr:hover {
+    background-color: pink;
+}
