@@ -16,7 +16,7 @@ circle.small {
     fill: #573d29;
 }
 
-.contained rect, .contained circle{
+#rect, .contained circle{
     fill:#c0c0c0;
     stroke: none;
 }
@@ -31,7 +31,7 @@ circle.small {
     fill: #bd250d
 }
 
-rect {
+rect:nth-last-child(n+2) {
     opacity: 0;
 }
 
